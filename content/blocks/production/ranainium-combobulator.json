@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "Rananium Combobulator",
+  "description": "Sprite by mq_1175 \nCombines materials in order to manufacture ranainium",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefualt"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameRadius": 0.0,
+        "flameRadiusIn": 0.0,
+        "flameRadiusScl": 0.0,
+        "flameRadiusMag": 0.0,
+        "flameRadiusInMag": 0.0
+      }
+    ]
+  },
+  "size": 5,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "itemCapacity": 80,
+  "craftTime": 100,
+  "craftEffect": "plasticburn",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        "phase-fabric/3",
+        "blast-compound/6",
+        "plastanium/4",
+        "surge-alloy/4"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/1000",
+    "titanium/500",
+    "thorium/350",
+    "plastanium/300",
+    "surge-alloy/1000",
+    "phase-fabric/100",
+    "ranainium/100"
+  ],
+  "category": "crafting",
+  "outputItem": "ranainium/5"
+}
+
+

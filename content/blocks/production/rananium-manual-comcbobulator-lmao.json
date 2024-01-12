@@ -1,0 +1,49 @@
+{
+    "type": "GenericCrafter",
+	"name": "Ranainium manual combobobulator",
+	"description": "Combines materials in order to craft ranainium. Very small, and very cursed",
+       "drawer": {
+         "type": "DrawMulti",
+        "drawers": [
+          {
+        "type": "DrawDefualt"
+        },
+        {
+	 "type": "DrawFlame",
+			"suffix": "-top",
+			"flameRadius": 0.0,
+			"flameRadiusIn": 0.0,
+			"flameRadiusScl": 0.0,
+			"flameRadiusMag": 0.0,
+			"flameRadiusInMag": 0.0
+       }
+        ]
+	},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 90,
+	"craftTime": 220000,
+	"craftEffect": "plasticburn",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+                "blast-compound/30",
+                "surge-alloy/60",
+                "plastanium/30",
+				"phase-fabric/90"
+			]
+		}
+	},
+	"requirements": [
+        "copper/500",
+        "titanium/350",
+        "silicon/500",
+        "surge-alloy/700"
+	],
+	"category": "crafting",
+	"outputItem": "ranainium/1"
+}
