@@ -1,0 +1,23 @@
+{
+"type": "PointDefenseTurret",
+  "name": "Ranainium Point Defense Turret",
+  "description": "Whats gonna happen if you mix rananium with a CIWS? hmmmm",
+
+"shootLength": 10,
+"reload": 0.000000001,
+"rotateSpeed": 36650000000,
+"range": 600,
+  "buildCostMultiplier": 4,
+"size": 3,
+"health": 1200,
+"bulletDamage": 3000000000000,
+"consumes": {
+  "power": 20.2
+},
+"category": "turret",
+  "requirements": [
+    { "item": "ranainium", "amount": 600 },
+    { "item": "phase-fabric", "amount": 30 },
+    { "item": "thorium", "amount": 314 }
+  ]
+}
