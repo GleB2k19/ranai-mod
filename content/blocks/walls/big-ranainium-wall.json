@@ -2,7 +2,7 @@
   "type": "Wall",
   "name": "Large Ranainium Wall",
   "buildCostMultiplier": 3,
-  "health": 6000,
+  "health": 12000,
   "size": 2,
   "requirements": [
     "ranainium/24"
