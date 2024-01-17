@@ -8,7 +8,7 @@
   "buildCostMultiplier": 5,
   "ammoPerShot": 20,
   "reload": 200,
-  "range": 700,
+  "range": 1500,
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 1,
