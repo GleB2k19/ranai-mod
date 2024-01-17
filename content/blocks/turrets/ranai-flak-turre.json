@@ -1,8 +1,8 @@
 {
   "type": "ItemTurret",
   "name": "Ranainium flak turret",
-  "description": "Anti unit turret with guided flak",
-  "size": 3,
+  "description": "Anti unit turret with LOTS OF FLAK DEAR GOD OH SHIT WHAT THE FU",
+  "size": 5,
   "health": 3800,
   "maxAmmo": 60,
   "buildCostMultiplier": 5,
