@@ -24,7 +24,7 @@
 	"hasLiquids": false,
 	"hasItems": true,
 	"itemCapacity": 90,
-	"craftTime": 220000,
+	"craftTime": 9900,
 	"craftEffect": "plasticburn",
 	"updateEffect": "none",
 	"consumes": {

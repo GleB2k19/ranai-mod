@@ -1,0 +1,98 @@
+{
+  "type": "ItemTurret",
+  "name": "Ranainium flak turret",
+  "description": "Anti unit turret with LOTS OF FLAK DEAR GOD OH SHIT WHAT THE FU",
+  "size": 5,
+  "health": 3800,
+  "maxAmmo": 60,
+  "buildCostMultiplier": 5,
+  "ammoPerShot": 20,
+  "reload": 200,
+  "range": 1500,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 1,
+  "ammoUseEffect": "casing1",
+  "ammoEjectBack": 10,
+  "inaccuracy": 0,
+  "recoilAmount": 99,
+  "restitution": 10,
+  "shootSound": "largeCannon",
+  "category": "turret",
+  "ammoTypes": {
+    "ranainium": {
+      "type": "BulletType",
+      "damage": 300,
+      "splashDamageRadius": 90,
+      "splashDamage": 1500,
+      "speed": 10,
+      "lifetime": 150,
+      "height": 20,
+      "width": 5,
+      "shootEffect": "shootSmokeMissile",
+      "pierce": true,
+      "hittable": false,
+      "reflectable": false,
+      "absorbable": false,
+      "makeFire": true,
+      "pierceArmor": true,
+      "pierceCap": 3,
+      "fragOnHit": true,
+      "fragBullet": {
+        "type": "BasicBullet",
+        "damage": 1000,
+        "splashDamageRadius": 30,
+        "splashDamage": 700,
+        "speed": 30,
+        "lifetime": 10,
+        "width": 200,
+        "pierce": true,
+        "pierceArmor": true,
+        "fragBullet": {
+          "type": "BasicBullet",
+          "speed": 10,
+          "damage": 1000,
+          "splashDamageRadius": 30,
+          "splashDamage": 700,
+          "lifetime": 30,
+          "width": 200,
+          "pierce": true,
+          "pierceArmor": true,
+          "fragBullets": 10,
+          "fragBullet": {
+            "type": "BasicBullet",
+            "speed": 10,
+            "damage": 1000,
+            "splashDamageRadius": 30,
+            "splashDamage": 700,
+            "lifetime": 30,
+            "width": 200,
+            "pierce": true,
+            "pierceArmor": true,
+          }
+        }
+      },
+      "trailLength": 3,
+      "fragBullets": 99,
+      "trailWidth": 2,
+      "impact": true,
+      "hitEffect": "scatheExplosion",
+      "splashDamagePierce": true,
+      "pierceDamageFactor": -1.0
+    }
+  },
+  "coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+  "requirements": [
+    { "item": "surge-alloy", "amount": 900 },
+    { "item": "plastanium", "amount": 600 },
+    { "item": "lead", "amount": 2000 },
+    { "item": "ranainium", "amount": 500 },
+    { "item": "phase-fabric", "amount": 2 }
+  ]
+
+}
