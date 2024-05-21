@@ -3,6 +3,8 @@
   "name": "Ranalloy",
   "radioactivity": 0.35,
   "description": "A mythical material powered by mindustry memes",
-  "color": "ca7665"
-
+  "color": "ca7665",
+"research": {
+    "parent": "surge-alloy",
+}
 }

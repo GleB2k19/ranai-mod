@@ -19,5 +19,7 @@
     { "item": "ranainium", "amount": 600 },
     { "item": "phase-fabric", "amount": 30 },
     { "item": "thorium", "amount": 314 }
-  ]
+  ],
+  "research": "segment",
+  "researchCostMultiplier": 15
 }

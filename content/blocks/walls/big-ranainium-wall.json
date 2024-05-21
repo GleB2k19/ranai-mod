@@ -6,6 +6,8 @@
   "size": 2,
   "requirements": [
     "ranainium/24"
-  ],
-  "category": "defense"
+  ]
+  "category": "defense",
+  "research": "ranainium-wall",
+  "researchCostMultiplier": 3
 }

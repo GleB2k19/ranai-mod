@@ -61,5 +61,7 @@
     "plastanium/350"
   ],
   "category": "crafting",
+	"research":"ranainium-combobulator",
+	"researchCostMultiplier":15,
   "outputLiquid": "ran-2-aium/0.6"
 }

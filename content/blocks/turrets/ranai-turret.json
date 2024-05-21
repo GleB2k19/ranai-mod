@@ -57,6 +57,8 @@
     { "item": "copper", "amount": 1000 },
     { "item": "ranainium", "amount": 300 },
     { "item": "phase-fabric", "amount": 1 }
-  ]
+  ],
+  "research": "foreshadow",
+  "researchCostMultiplier": 15
 
 }
