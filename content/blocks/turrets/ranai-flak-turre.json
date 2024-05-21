@@ -23,6 +23,7 @@
     "ranainium": {
       "type": "BulletType",
       "damage": 300,
+      "buildingDamageMultiplier": -99,
       "splashDamageRadius": 90,
       "splashDamage": 1500,
       "speed": 10,
@@ -41,6 +42,7 @@
       "fragBullet": {
         "type": "BasicBullet",
         "damage": 1000,
+        "buildingDamageMultiplier": -99,
         "splashDamageRadius": 30,
         "splashDamage": 700,
         "speed": 30,
@@ -52,6 +54,7 @@
           "type": "BasicBullet",
           "speed": 10,
           "damage": 1000,
+          "buildingDamageMultiplier": -99,
           "splashDamageRadius": 30,
           "splashDamage": 700,
           "lifetime": 30,

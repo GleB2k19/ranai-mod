@@ -10,7 +10,7 @@
         "suffix": "-bottom"
       },
       {
-        "type": "DrawDefualt"
+        "type": "DrawDefault"
       },
       {
         "type": "DrawFlame",
