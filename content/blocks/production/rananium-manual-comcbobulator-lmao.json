@@ -45,5 +45,7 @@
         "surge-alloy/700"
 	],
 	"category": "crafting",
+	"research": "phase-weaver",
+	"researchCostMultiplier":5,
 	"outputItem": "ranainium/1"
 }
