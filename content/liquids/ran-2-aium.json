@@ -8,5 +8,6 @@
   "viscosity": 0.2,
   "incinerable": false,
   "boilPoint": 30,
-  "gasColor": "9692ca"
+  "gasColor": "9692ca",
+  "research": "cryofluid"
 }
