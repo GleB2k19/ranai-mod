@@ -96,6 +96,8 @@
     { "item": "lead", "amount": 2000 },
     { "item": "ranainium", "amount": 500 },
     { "item": "phase-fabric", "amount": 2 }
-  ]
+  ],
+  "research": "meltdown",
+  "researchCostMultiplier": 10
 
 }
