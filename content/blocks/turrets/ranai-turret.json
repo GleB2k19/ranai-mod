@@ -58,5 +58,7 @@
     { "item": "ranainium", "amount": 300 },
     { "item": "phase-fabric", "amount": 1 }
   ]
+  "research": "foreshadow",
+  "researchCostMultiplier": 15
 
 }
