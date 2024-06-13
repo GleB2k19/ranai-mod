@@ -59,6 +59,6 @@
     { "item": "phase-fabric", "amount": 1 }
   ],
   "research": "foreshadow",
-  "researchCostMultiplier": 15
+  "researchCostMultiplier": 0.75
 
 }

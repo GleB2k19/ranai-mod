@@ -21,5 +21,5 @@
     { "item": "thorium", "amount": 314 }
   ],
   "research": "segment",
-  "researchCostMultiplier": 15
+  "researchCostMultiplier": 0.5
 }

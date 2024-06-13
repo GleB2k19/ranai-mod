@@ -52,8 +52,8 @@
     "ranainium/100"
   ],
   "category": "crafting",
-  "research": "ranainium-manual-comcbobulator",
-  "researchCostMultiplier": 3,
+  "research": "rananium-manual-comcbobulator-lmao",
+  "researchCostMultiplier": 0.33,
   "outputItem": "ranainium/5"
 }
 

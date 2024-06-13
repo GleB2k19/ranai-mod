@@ -46,6 +46,6 @@
 	],
 	"category": "crafting",
 	"research": "phase-weaver",
-	"researchCostMultiplier":5,
+	"researchCostMultiplier":1,
 	"outputItem": "ranainium/1"
 }

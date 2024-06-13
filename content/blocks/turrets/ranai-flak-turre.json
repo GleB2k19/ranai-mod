@@ -98,6 +98,6 @@
     { "item": "phase-fabric", "amount": 2 }
   ],
   "research": "meltdown",
-  "researchCostMultiplier": 10
+  "researchCostMultiplier": 1
 
 }

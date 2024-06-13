@@ -62,6 +62,6 @@
   ],
   "category": "crafting",
 	"research":"ranainium-combobulator",
-	"researchCostMultiplier":15,
+	"researchCostMultiplier":2,
   "outputLiquid": "ran-2-aium/0.6"
 }
